@@ -76,6 +76,7 @@ export class RecaptchaV3 {
       host: this._api.host,
       port: '443',
       path: this._api.verify,
+	  proxy: 'http://proxy.hkbu.edu.hk:8080',
       method: 'POST',
       headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
